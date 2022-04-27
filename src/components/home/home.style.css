@@ -1,0 +1,71 @@
+#home{
+    height: 46vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+	background-color: rgb(255, 255, 255);
+}
+
+.profile-pic{
+    height: auto;
+    width: 50vh;
+    border-radius: 50%;
+    animation: fadeInBottom 1s ease-in both;
+}
+
+.logo-underlined{
+    height: auto;
+    width: 70vh;
+    margin-left: -16vh;
+    z-index: 5;
+    animation: fadeInTop 1s ease-in both;
+}
+
+.subtitle{
+    z-index: 5;
+    font-size: 4vh;
+    margin-top: -5vh;
+    animation: fadeInTop20 1s ease-in both;
+}
+
+#home div img:nth-child(1 ) {
+	animation-delay: 0.8s;
+}
+
+#home div p:nth-child(2) {
+	animation-delay: 0.8s;
+}
+
+
+@keyframes fadeInBottom {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 40%, 0);
+	}
+	to {
+		opacity: 0.7;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInTop20 {
+	from {
+		opacity: 0;
+		transform: translate3d(0, 40%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes fadeInTop {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -40%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
