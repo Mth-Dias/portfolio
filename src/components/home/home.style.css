@@ -24,6 +24,7 @@
 .subtitle{
     z-index: 5;
     font-size: 4vh;
+	font-weight: 300;
     margin-top: -5vh;
     animation: fadeInTop20 1s ease-in both;
 }

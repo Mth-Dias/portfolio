@@ -38,7 +38,7 @@ export default function Home () {
           width: 150,
           x: mousePosition.x - 75,
           y: mousePosition.y - 75,
-          backgroundColor: "gray",
+          backgroundColor: "rgb(200, 200, 200)",
           mixBlendMode: "difference"
         }
       }
