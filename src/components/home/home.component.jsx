@@ -48,7 +48,9 @@ export default function Home () {
 
     return(
         <section id="home">
+            <div className="fadein-logo">
             <img onMouseEnter={textEnter} onMouseLeave={textLeave} src={ProfilePic} alt="Foto Matheus Dias" className="profile-pic"></img>
+            </div>
             <div>
             <img onMouseEnter={textEnter} onMouseLeave={textLeave} src={LogoUnderlined} alt="Logotipo" className="logo-underlined"></img>
             <p className="subtitle" onMouseEnter={textEnter} onMouseLeave={textLeave}>Front-end Developer</p>
