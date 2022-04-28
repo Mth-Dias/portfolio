@@ -36,16 +36,20 @@
     animation: fadeInTop20 1s ease-in both;
 }
 
+#home .fadein-logo:nth-child(1) {
+	animation-delay: 0.7s;
+}
+
 #home .fadein-logo img:nth-child(1) {
-	animation-delay: 0s;
+	animation-delay: 0.7s;
 }
 
 #home div img:nth-child(1) {
-	animation-delay: 0.8s;
+	animation-delay: 1.5s;
 }
 
 #home div p:nth-child(2) {
-	animation-delay: 0.8s;
+	animation-delay: 1.5s;
 }
 
 
