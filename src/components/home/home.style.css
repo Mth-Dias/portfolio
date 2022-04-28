@@ -10,7 +10,10 @@
     height: auto;
     width: 50vh;
     border-radius: 50%;
-    animation: fadeInBottom 1s ease-in both;
+    animation: spin 1s ease-in both;
+	animation-duration: 5000ms;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear; 
 }
 
 .logo-underlined{
@@ -29,7 +32,7 @@
     animation: fadeInTop20 1s ease-in both;
 }
 
-#home div img:nth-child(1 ) {
+#home div img:nth-child(1) {
 	animation-delay: 0.8s;
 }
 
@@ -69,4 +72,13 @@
 		opacity: 1;
 		transform: translate3d(0, 0, 0);
 	}
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }

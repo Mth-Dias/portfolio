@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage":"https://matheusdias.dev.br",
+  "homepage": "https://matheusdias.dev.br",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
