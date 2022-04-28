@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import { motion } from 'framer-motion';
 import "./home.style.css"
-import ProfilePic from "../../assets/images/Profile.jpg"
+import ProfilePic from "../../assets/images/react.png"
 import LogoUnderlined from "../../assets/images/LogoUnderline.png"
 
 export default function Home () {
