@@ -1,38 +1,36 @@
 import React from "react";
+
 import "./header.style.css"
+
 import logo from "../../assets/images/Logo.png"
 
 export default function Header () {
     return(
         <header className="nav-bar">
             <img src={logo} className="nav-logo" alt="logo"/>
-            <ul>
+            <ul id="desktop-menu">
                 <a href={"/"}>
-                <li className="nav-item">
+                <li className="nav-item link">
                     Home
                 </li>
                 </a>
-                <a href={"/"}>
-                <li className="nav-item">
+                <li className="nav-item deact">
                     About
                 </li>
-                </a>
-                <a href={"/"}>
-                <li className="nav-item">
+                <li className="nav-item deact">
                     Experience
                 </li>
-                </a>
-                <a href={"/"}>
-                <li className="nav-item">
+                <li className="nav-item deact">
                     Work
                 </li>
-                </a>
-                <a href={"/"}> 
-                <li className="nav-item">
+                <li className="nav-item deact">
                     Contact
                 </li>
-                </a>
             </ul>
+            <ul className="mobile-menu">
+
+            </ul>
+
         </header>
     )
 }
