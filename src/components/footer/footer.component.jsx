@@ -8,9 +8,9 @@ export default function Footer () {
     return(
         <footer>
             <p className="footer-text">Built with React.js</p>
-            <a href="https://www.linkedin.com/in/matheus-dias-158547185/">
+            {/* <a href="https://www.linkedin.com/in/matheus-dias-158547185/">
             <img className="linkedin-logo" src={LinkedinLogo} alt="Linkedin-Logo"></img>
-            </a>
+            </a> */}
         </footer>
     )
 }
