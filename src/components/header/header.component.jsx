@@ -2,7 +2,7 @@ import React from "react";
 
 import "./header.style.css"
 
-import logo from "../../assets/images/Logo.png"
+import logo from "../../assets/images/Logo.svg"
 
 export default function Header () {
     return(
