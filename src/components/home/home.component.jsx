@@ -55,7 +55,7 @@ export default function Home () {
           </div>
           <div>
             <img onMouseEnter={textEnter} onMouseLeave={textLeave} src={LogoUnderlined} alt="Logotipo" className="logo-underlined"/>
-            <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="subtitle">Front-end Developer</p>
+            <p onMouseEnter={textEnter} onMouseLeave={textLeave} className="subtitle">Front-end Developer - Davideus é meu amigo</p>
           </div>
           <motion.div
                  className='cursor'
